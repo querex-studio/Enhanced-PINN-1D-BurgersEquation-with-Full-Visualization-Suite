@@ -29,3 +29,10 @@ The code integrates analytical validation, conservation analysis, and six advanc
 Install dependencies:
 ```bash
 pip install torch numpy matplotlib
+```
+
+## Key Findings
+- Low viscosity (ν ≤ 0.005): Shock-like nonlinear regimes
+- Intermediate viscosity (0.005 < ν < 0.02): Transitional flow
+- High viscosity (ν ≥ 0.02): Diffusion-dominated smooth decay
+- PINN achieves L² error < 1e-3 for all regimes
